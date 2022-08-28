@@ -6,7 +6,8 @@ public class ParkingSystem {
         carContainer[1] = medium;
         carContainer[2] = small;
     }
-    public  void main(String[] args) {
+
+    public void main(String[] args) {
         ParkingSystem parkingSystem = new ParkingSystem(1, 1, 0);
         System.out.println(parkingSystem.addCar(1));
         System.out.println(parkingSystem.addCar(2));
